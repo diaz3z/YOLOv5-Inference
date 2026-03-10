@@ -29,7 +29,6 @@ Pretrained weights are already placed under `models/`.
 |-- segmentation/
 |   |-- segmentation_function.py
 |   |-- segmentation_imshow.py
-|   `-- seg-vid-v6.py         # legacy script (see Known Issues)
 |-- classification/
 |   |-- classification_function.py
 |   `-- classification_imshow.py
