@@ -1,0 +1,59 @@
+# Python cache and build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyd
+*.pyo
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# IDE/editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs and local runtime artifacts
+*.log
+*.tmp
+*.temp
+
+# Test/coverage
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Project runtime outputs
+results/
+videos/
+yolov5/runs/
+yolov5/*.pt
+yolov5/*.onnx
+
+# Model binaries (large files, usually downloaded/generated)
+models/**/*.pt
+models/**/*.onnx
+models/**/*.engine
+models/**/*.tflite
+models/**/*.pb
+models/**/*.torchscript
+
